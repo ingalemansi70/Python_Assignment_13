@@ -80,3 +80,13 @@ print("Multiplication of array  a and b = ",a*b)
 print("a**b = ",a**b)
 print("a % b = ",a%b)
 
+#Question 8)
+A = np.array([[1,2,3],[4,5,6],[7,8,9]])
+B = np.array([[9,8,7],[6,5,4],[3,2,1]])
+
+print("Element wise multiplication A*B = \n",A*B) # * = element-wise multiply. Same position * Same position
+print("Matrix multiplication = \n",A@B)# @ = Matrix multiplication / Dot product  
+# Uses row × column rule from linear algebra
+# Shape rule: (m×n) @ (n×p) = (m×p). Inner dimensions must match
+
+
