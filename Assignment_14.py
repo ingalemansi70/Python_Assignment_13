@@ -37,3 +37,15 @@ print("Original array : \n",arr)
 print("Array with 4 rows and 6 columns : \n",arr1," Its shape : : ",arr1.shape)
 print("Array with 3 rows and 8 columns : \n",arr2," Its shape : ",arr2.shape)
 print("The 3D array : \n",arr3D," and its shape : ",arr3D.shape)
+
+#Question 5)
+
+arr = np.array([[10, 20, 30, 40],
+[50, 60, 70, 80],
+[90, 100, 110, 120]])
+print("The array : ",arr)
+print("The first row : ",arr[0])
+print("The first column : ",arr[:,0])
+print("The center 2*2 : \n",(arr[1:3][1:3]).reshape(2,2))
+even_array = arr[arr%2 == 0]  
+print("Even numbers array : ",even_array)
