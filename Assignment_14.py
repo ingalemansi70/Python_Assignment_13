@@ -28,3 +28,12 @@ print("The sum of each row : ",arr.sum(axis =1))
 print("The sum of each column : ",arr.sum(axis =0))
 
 
+#Question 4)
+arr = np.arange(1,25)
+arr1 = arr.reshape(4,6)
+arr2 = arr.reshape(3,8)
+arr3D = arr.reshape(2,3,4)
+print("Original array : \n",arr)
+print("Array with 4 rows and 6 columns : \n",arr1," Its shape : : ",arr1.shape)
+print("Array with 3 rows and 8 columns : \n",arr2," Its shape : ",arr2.shape)
+print("The 3D array : \n",arr3D," and its shape : ",arr3D.shape)
